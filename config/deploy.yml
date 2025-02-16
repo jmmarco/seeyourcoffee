@@ -7,7 +7,7 @@ image: jmmarco/seeyourcoffee
 # Deploy to these servers.
 servers:
   web:
-    - 165.227.140.75
+    - 146.190.177.110
   # job:
   #   hosts:
   #     - 192.168.0.1
