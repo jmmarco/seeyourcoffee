@@ -36,7 +36,9 @@ class BeansTest < ApplicationSystemTestCase
 
   test "should destroy Bean" do
     visit bean_url(@bean)
-    click_on "Destroy this bean", match: :first
+    accept_confirm do
+      click_on "Destroy this bean", match: :first
+    end
 
     assert_text "Bean was successfully destroyed"
   end
