@@ -7,6 +7,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: Production
+
     env:
       DOCKER_BUILDKIT: 1
       RAILS_ENV: production
